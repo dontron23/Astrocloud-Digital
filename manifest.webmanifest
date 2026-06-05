@@ -1,0 +1,12 @@
+{
+  "name": "AstroCloud Digital",
+  "short_name": "AstroCloud",
+  "description": "Professional websites and local SEO for Kenyan SMEs.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0A0F1C",
+  "theme_color": "#0A0F1C",
+  "icons": [
+    { "src": "/assets/img/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
