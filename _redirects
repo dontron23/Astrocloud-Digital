@@ -1,0 +1,12 @@
+# Cloudflare Pages redirects
+# Send clean (extension-less) URLs to their .html pages so both work.
+/services      /services.html      301
+/pricing       /pricing.html       301
+/work          /work.html          301
+/about         /about.html         301
+/contact       /contact.html       301
+/free-audit    /free-audit.html    301
+/audit         /free-audit.html    301
+/privacy       /privacy.html       301
+/terms         /terms.html         301
+/cookies       /cookies.html       301

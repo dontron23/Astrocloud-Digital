@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en-KE">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Thank you | AstroCloud Digital</title>
+  <meta name="description" content="Thanks for reaching out to AstroCloud Digital. We'll be in touch within 2 working hours." />
+  <meta name="robots" content="noindex" />
+  <link rel="canonical" href="https://astrocloud.digital/thank-you.html" />
+  <meta name="theme-color" content="#0A0F1C" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,600;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/tailwind.css" />
+</head>
+<body>
+  <header id="site-header"></header>
+  <main class="canvas-dark stars relative flex min-h-screen items-center overflow-hidden">
+    <div class="container-x relative py-32 text-center">
+      <div class="mx-auto grid h-20 w-20 place-items-center rounded-full text-4xl text-ink-900 animate-rise" style="background-image:var(--grad-sun)">✓</div>
+      <h1 class="animate-rise mx-auto mt-7 max-w-2xl text-4xl font-extrabold text-white sm:text-5xl" style="animation-delay:.05s">Thank you — your request is in!</h1>
+      <p class="lede-dark animate-rise mx-auto mt-5 max-w-xl" style="animation-delay:.12s">We've received your message and will reply within <strong>2 working hours</strong> (Mon–Sat). For anything urgent, message us on WhatsApp and we'll jump straight on it.</p>
+      <div class="animate-rise mt-9 flex flex-col justify-center gap-3 sm:flex-row" style="animation-delay:.2s">
+        <a id="ty-wa" href="#" target="_blank" rel="noopener" class="btn btn-wa">Message us on WhatsApp</a>
+        <a href="index.html" class="btn btn-ghost-dark">Back to home</a>
+      </div>
+      <div class="mx-auto mt-12 max-w-md animate-rise" style="animation-delay:.28s">
+        <p class="text-sm text-muted-dark">While you wait, take a look at our <a href="work.html" class="text-sun underline">recent work</a> or <a href="pricing.html" class="text-sun underline">pricing</a>.</p>
+      </div>
+    </div>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="assets/js/config.js"></script>
+  <script defer src="assets/js/partials.js"></script>
+  <script defer src="assets/js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){ var el=document.getElementById("ty-wa"); if(el) el.href=window.ASTRO.waLink("Hi AstroCloud, I just submitted a request on your website."); });
+  </script>
+</body>
+</html>

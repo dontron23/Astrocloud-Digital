@@ -1,0 +1,13 @@
+{
+  "name": "astrocloud-digital",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AstroCloud Digital — static marketing website for a Kenyan web design studio.",
+  "scripts": {
+    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/tailwind.css --minify",
+    "watch": "tailwindcss -i ./assets/css/input.css -o ./assets/css/tailwind.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
